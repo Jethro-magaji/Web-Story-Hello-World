@@ -1,3 +1,3 @@
-# web-platform-7zupyc
+# Web-Story-Hello-World
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-7zupyc)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-story-hello-world)
