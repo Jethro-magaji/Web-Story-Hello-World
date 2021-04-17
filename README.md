@@ -4,4 +4,4 @@
 
 |First story|Second story|Third story|Fourth story|     
 |----|-----|-------|-----|   
-|![Web Story](Web-Story-Hello-World/story-images/webstories1.png)|![Web Story](Web-Story-Hello-World/story-images/webstories2.png)|![Web Story](Web-Story-Hello-World/story-images/webstories3.png))|![Web Story](Web-Story-Hello-World/story-images/webstories4.png)|
+|![Web Story](https://github.com/jethro-magaji//blob/Web-Story-Hello-World/master/webstories1.png?raw=true)|![Web Story](Web-Story-Hello-World/story-images/webstories2.png)|![Web Story](Web-Story-Hello-World/story-images/webstories3.png))|![Web Story](Web-Story-Hello-World/story-images/webstories4.png)|
