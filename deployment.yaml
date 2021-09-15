@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-story-hello-world-service
+spec:
+  selector:
+    app: web-story-hello-world
+  ports:
+  - protocol: "TCP"
+    port: 6000
+    targetPort: 5000
+  type: LoadBalancer
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-story-hello-world
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web-story-hello-world
+  template:
+    metadata:
+      labels:
+        app: web-story-hello-world
+    spec:
+      containers:
+      - name: web-story-hello-world
+        image: drje/web-story-hello-world
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: "1"
+          requests:
+            memory: 256Mi
+            cpu: "0.2"
+        ports:
+        - containerPort: 5000
+        
